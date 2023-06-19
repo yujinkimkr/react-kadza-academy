@@ -1,0 +1,23 @@
+$theme-color: rgb(242, 238, 252);
+
+.button {
+  // background-color: rgb(181, 172, 250);
+  background-color: #6e15bd;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 35px;
+  font-size: .9rem;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 2px 2px 3px grey;
+  transition: .4s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: $theme-color;
+    color: #333;
+    // color: #fff;
+  }
+}

@@ -1,0 +1,38 @@
+.courses__container {
+  padding: 1% 18%;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  margin: 5% 0 0;
+}
+
+.featured__container {
+
+  // p:first-child {
+  //   margin: 0 0 3%;
+  // }
+
+}
+
+.button__container {
+  margin-top: 3rem;
+  text-align: right;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+  // padding: .4% 10%;
+}
+
+.banner__container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}

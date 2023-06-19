@@ -1,0 +1,18 @@
+$theme-color: rgb(242, 238, 252);
+
+.top__container {
+  background-color: $theme-color;
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  div:first-child {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+}
+
+.top__img {
+  width: 350px;
+}

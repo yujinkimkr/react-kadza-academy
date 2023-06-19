@@ -1,0 +1,21 @@
+.intro__card {
+  display: flex;
+  width: 400px;
+
+  div:first-child {
+    margin: .7rem 1rem;
+  }
+
+  div:last-child {
+    padding-right: 13px;
+
+    h2 {
+      margin: .8rem 0 .8rem;
+    }
+  }
+
+
+  img {
+    width: 3rem;
+  }
+}

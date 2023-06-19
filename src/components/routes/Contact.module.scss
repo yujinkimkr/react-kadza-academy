@@ -1,0 +1,17 @@
+.contact__container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 400px;
+
+  ul {
+    text-align: center;
+
+    li {
+      margin-top: 10px;
+    }
+  }
+
+  img {
+    width: 90px;
+  }
+}

@@ -1,0 +1,33 @@
+/* intro card */
+
+.intro__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 15% 0;
+}
+
+.goal,
+.members,
+.video__container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.video__container {
+  img {
+    max-width: 900px;
+  }
+}
+
+.goal {
+  padding: 0 25%;
+}
+
+.members {
+  padding: 0 10%;
+}
+
+.memberList {
+  display: flex;
+  justify-content: center;
+}
